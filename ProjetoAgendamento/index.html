@@ -2,22 +2,26 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Barbearia dos Campeões</title>
   <link rel="stylesheet" href="style.css" />
 
   <!-- Firebase SDKs -->
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.23.0/firebase-firestore-compat.js"></script>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 <body>
   <div id="splash-screen">
     <img src="assets/abertura.jpg" alt="Barbearia dos Campeões" />
   </div>
 
-  <div id="login-page" class="hidden">
-    <!-- Conteúdo do login será gerado via JS -->
-  </div>
+  <main id="app" class="hidden">
+    <!-- O conteúdo será renderizado pelo JS -->
+  </main>
 
   <script src="script.js"></script>
 </body>
